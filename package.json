@@ -1,0 +1,25 @@
+{
+  "name": "lab08",
+  "version": "1.0.0",
+  "description": "lab",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vingik1/lab08.git"
+  },
+  "keywords": [
+    "keyword"
+  ],
+  "author": "viktor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vingik1/lab08/issues"
+  },
+  "homepage": "https://github.com/vingik1/lab08#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
