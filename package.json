@@ -7,7 +7,9 @@
     "test": "jest",
     "watch": "jest --watchAll",
     "clean": "rm -rf node_modules",
-    "start": "node app.js"
+    "start": "node server.js",
+    "build": "webpack",
+    "devServer": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -23,10 +25,16 @@
   },
   "homepage": "https://github.com/vingik1/lab08#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
     "express": "^4.16.3",
-    "jest": "^23.6.0"
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.6.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
   },
   "dependencies": {
+    "lodash": "^4.17.11",
     "supertest": "^3.3.0"
   }
 }

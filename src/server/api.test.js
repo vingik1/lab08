@@ -1,4 +1,4 @@
-// src/api.test.js
+// src/server/api.test.js
 const request = require("supertest");
 const api = require("./api");
 describe("GET /greeting/:name endpoint", () => {
