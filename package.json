@@ -9,7 +9,7 @@
     "clean": "rm -rf node_modules",
     "start": "node server.js",
     "heroku-postbuild":"webpack -p",
-    "build": "webpack",
+    "build": "webpack -p",
     "devServer": "webpack-dev-server --open"
   },
   "repository": {
