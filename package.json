@@ -36,6 +36,11 @@
   },
   "dependencies": {
     "lodash": "^4.17.11",
-    "supertest": "^3.3.0"
+    "supertest": "^3.3.0",
+    "express":"*",
+
+"body-parser":"*",
+
+"bcrypt": "^0.8.5"
   }
 }
